@@ -5,7 +5,7 @@ Getting hands *dirty* with Docker.
 
 To Build this image, type the following command :
 ```
-ls Docker
+cd Docker
 docker build -t docker-intro .
 ```
 And run it using : 
