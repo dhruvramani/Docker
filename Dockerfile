@@ -4,9 +4,8 @@ FROM docker/whalesay:latest
 MAINTAINER Dhruv Ramani <dhruvramani.github.io>
 
 LABEL version="0.1" description="Simple Dockerfile For Learning Purposes"
-ENV name=World
 
 RUN [ "sh", "-c", "echo", "Running Docker on $DOCKER_HOST" ]
 COPY foo.txt /tmp/
 ADD "https://docs.docker.com/dist/assets/images/logo.png" /
-CMD cowsay Hello $name
+CMD cowsay Hello World
