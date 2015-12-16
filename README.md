@@ -16,7 +16,9 @@ docker run docker-intro
 Docker creates portable lightweight containers for software applications that can be run on any machine with Docker installed, regardless of the OS running on the machine.
 ##Basic Concepts
 Docker Container : Directories containing everything-your-application.
+
 Docker Images    : Snapshots of containers or base OS (e.g. Ubuntu) images.
+
 Linux Containers : Combination various kernel-level features which allow    
                    management of applications contained within their own environment.
 ##How is it different from VMs?
