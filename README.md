@@ -76,4 +76,23 @@ Setting environment variables for machine dev...
 
 The Docker Quick Start Terminal is configured to use Docker with the “default”
 ```
+##Docker Machine
+To create a basic Docker-Machine 
+```
+docker-machine create --driver virtualbox test
+```
+Get info. about running Docker-Machine
+```
+docker-machine ls
+```
+To initalize the [environment variables](https://docs.docker.com/compose/reference/overview/)
+```
+eval "$(docker-machine env test)"
+```
+Run the Docker-Machine
+```
+docker-machine env test
+```
+
+
 
